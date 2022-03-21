@@ -1,5 +1,5 @@
 # Image-Color-Compressor
-Compresses an image into a palette of colors and specified size (by default, 120x120) (currently hardcoded)
+Compresses an image into a palette of colors and specified size (by default, 120x120) (currently hardcoded).
 At any pass, if the image is presented to 85% accuracy (currently hardcoded), the program will stop at that pass.
 
 Palettes consist of lists of RGB colors that the program can choose from and can be created in text form.
