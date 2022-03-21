@@ -7,7 +7,7 @@ The default palette has all greys eliminated and consists of shades of primary c
 
 # Running
 - Install the Pillow package via pip (e.g. in a Windows environment where Python 3 is installed, run "pip install pillow")
-- Run the program in the commandline with an image as the first argument (e.g. 'python \_\_main\_\_.py "palette - no greys.txt" "image.jpg"')
+- Run the program in the commandline with a palette as the first argument and image as the second (e.g. 'python \_\_main\_\_.py "palette - no greys.txt" "image.jpg"')
 
 # Example output
 ### Unconverted image
