@@ -6,8 +6,8 @@ Palettes consist of lists of RGB colors that the program can choose from and can
 The default palette has all greys eliminated and consists of shades of primary colors. This keeps the program from averaging everything to shades of grey.
 
 # Running
-Install the Pillow package via pip (e.g. in a Windows environment where Python 3 is installed, run "pip install pillow")
-Run the program in the commandline with an image as the first argument (e.g. 'python \_\_main\_\_.py "palette - no greys.txt" "image.jpg"')
+- Install the Pillow package via pip (e.g. in a Windows environment where Python 3 is installed, run "pip install pillow")
+- Run the program in the commandline with an image as the first argument (e.g. 'python \_\_main\_\_.py "palette - no greys.txt" "image.jpg"')
 
 # Example output
 ### Unconverted image
