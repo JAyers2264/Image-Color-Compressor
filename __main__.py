@@ -4,7 +4,7 @@ import sys
 
 # Open palette and image
 
-palette = open("palette - no greys.txt",'r')
+palette = open(sys.argv[1], "r")
 palette_list = []
 for line in palette:
 	this_color = line.split(",")
@@ -12,7 +12,7 @@ for line in palette:
 		this_color[2] = this_color[2][:-1]
 	palette_list.append(this_color)
 
-in_pic = open(sys.argv[1], "rb")
+in_pic = open(sys.argv[2], "rb")
 im = Image.open(in_pic)
 im = im.resize((120,120))
 px = im.load()
